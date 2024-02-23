@@ -180,3 +180,57 @@ HTML
 You can further customize the appearance of lists using CSS. For example, you can change the bullet points for unordered lists or the numbering style for ordered lists. Additionally, you can nest lists within each other to create hierarchical structures.
 
 Lists are a fundamental part of HTML markup, allowing you to organize and present information in a structured manner.
+
+
+__________________________________________________________________________________________________________________________________________
+HTML tables
+>>
+HTML tables are used to display data in a structured format with rows and columns. They consist of the following components:
+
+Table: The <table> element defines the entire table.
+
+Table Row: Each row of the table is defined using the <tr> element.
+
+Table Header Cell: The header cells of the table, typically located at the beginning of each row or at the top of the table, are defined using the <th> element.
+
+Table Data Cell: The data cells of the table, which contain the actual data, are defined using the <td> element.
+
+Here's an example of a simple HTML table:
+
+```javascript
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Table Example</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Product A</td>
+            <td>$10</td>
+        </tr>
+        <tr>
+            <td>Product B</td>
+            <td>$20</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+```
+In this example:
+
+The <table> element defines the entire table.
+Each row is defined using the <tr> element.
+The first row contains header cells <th> for "Product" and "Price".
+The subsequent rows contain data cells <td> with product names and prices.
+You can customize the appearance and layout of HTML tables using CSS. Additionally, HTML5 provides semantic elements like <thead>, <tbody>, and <tfoot> to further structure and organize tables.
+
