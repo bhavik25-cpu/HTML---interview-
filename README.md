@@ -186,13 +186,13 @@ HTML tables
 >>
 HTML tables are used to display data in a structured format with rows and columns. They consist of the following components:
 
-Table: The <table> element defines the entire table.
+Table: The table tag  element defines the entire table.
 
 Table Row: Each row of the table is defined using the <tr> element.
 
-Table Header Cell: The header cells of the table, typically located at the beginning of each row or at the top of the table, are defined using the <th> element.
+Table Header Cell: The header cells of the table, typically located at the beginning of each row or at the top of the table, are defined using the th tag element.
 
-Table Data Cell: The data cells of the table, which contain the actual data, are defined using the <td> element.
+Table Data Cell: The data cells of the table, which contain the actual data, are defined using the td tag element.
 
 Here's an example of a simple HTML table:
 
