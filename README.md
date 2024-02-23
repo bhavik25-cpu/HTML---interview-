@@ -6,6 +6,7 @@ What are Semantic tags in html
 Semantic tags in HTML are elements that provide meaning to the content they contain, beyond just presentation or styling. They help describe the structure of the web page in a more meaningful way for both browsers and developers. Semantic tags make it easier for search engines, screen readers, and other devices to understand the content and its hierarchy.
 
 Here are some examples of semantic HTML5 tags:
+```javascript
 
 <header>: Represents the header of a section or page.
 <nav>: Defines a set of navigation links.
@@ -17,6 +18,8 @@ Here are some examples of semantic HTML5 tags:
 <figure>: Represents self-contained content, such as images or diagrams.
 <figcaption>: Represents a caption or legend for the content of a <figure> element.
 <time>: Represents a specific period in time or a range of time.
+```
+
 Using semantic HTML tags not only improves the accessibility and SEO of your website but also makes your code easier to understand and maintain.
 
 ______________________________________________________________________________________________________________________________________________________________________
@@ -50,14 +53,18 @@ viewport in HTML
 The viewport meta tag in HTML is used to control the layout and scaling of the webpage on different devices with varying screen sizes and resolutions. It's especially important for responsive web design to ensure that the webpage looks good and functions properly across various devices such as desktops, laptops, tablets, and smartphones.
 
 Here's an example of how to use the viewport meta tag:
+```javascript
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
 
 Explanation of the attributes:
+```javascript
 
 name="viewport": Specifies that this meta tag is related to the viewport.
 content="width=device-width, initial-scale=1.0": Defines the initial width of the viewport to be equal to the device width and sets the initial zoom level to 1.0 (i.e., no zooming).
 The width=device-width part ensures that the width of the viewport is set to the width of the device screen, which allows the webpage to adapt its layout accordingly. Without this setting, mobile browsers would typically render the page at a desktop viewport width, making the content appear too small and requiring the user to zoom in to read it comfortably.
+```
 
 The initial-scale=1.0 part sets the initial zoom level of the page to 1.0, which means the page is not zoomed in or out by default. This ensures that the layout is not distorted when the page loads on different devices.
 
