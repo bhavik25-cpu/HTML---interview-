@@ -41,7 +41,6 @@ These metadata tags provide important information about the document, helping br
 
 _________________________________________________________________________________________________________________________________________________
 
-
 viewport in HTML
 >>
 
@@ -228,8 +227,8 @@ Here's an example of a simple HTML table:
 ```
 In this example:
 
-The <table> element defines the entire table.
-Each row is defined using the <tr> element.
+The table tag  element defines the entire table.
+Each row is defined using the tr tag  element.
 The first row contains header cells <th> for "Product" and "Price".
 The subsequent rows contain data cells <td> with product names and prices.
 You can customize the appearance and layout of HTML tables using CSS. Additionally, HTML5 provides semantic elements like <thead>, <tbody>, and <tfoot> to further structure and organize tables.
