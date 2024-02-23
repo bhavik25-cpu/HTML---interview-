@@ -62,7 +62,7 @@ In addition to width=device-width and initial-scale=1.0, you can also include ot
 
 
 ___________________________________________________________________________________________________________________________________________________________________
-<div>in HTML
+div tag in HTML
 >>
 
 In HTML, the <div> element is a block-level container used to group together and style content. It's a generic container that doesn't have any specific meaning on its own but is instead used to structure and organize content on a webpage. You can think of it as a box that can contain other elements such as text, images, forms, and other HTML elements.
@@ -105,7 +105,7 @@ Here's an example of how you can use the <div> element:
 In this example, the <div> element with the class container is used to group together the heading, paragraph, image, and form elements. The CSS styling applied to the container class adds a border, padding, and margin around the content within the <div> element, visually separating it from other content on the page. The <div> element itself doesn't affect the layout or appearance of the content but provides a way to structure and style it.
 ______________________________________________________________________________________________________________________________________
 
-<span>  in HTML
+span tag in HTML
 >>
 In HTML, the <span> element is an inline-level container used to apply styles or manipulate text within a larger block of content. Unlike the <div> element, which is a block-level container, the <span> element is typically used for smaller, more specific sections of content or for applying styles to individual words or phrases.
 
