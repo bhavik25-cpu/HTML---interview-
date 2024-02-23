@@ -134,9 +134,7 @@ Here's an example of how you can use the <span> element:
 ```
 ____________________________________________________________________________________________
 HTML Lists
->>
-
-
+>
 
 In HTML, you can create lists using three main types of list elements: unordered lists, ordered lists, and definition lists.
 
@@ -174,7 +172,7 @@ html
 
 Definition Lists (<dl>):
 A definition list is a list of terms and their corresponding descriptions.
-Each term is represented by a <dt> (definition term) element, and each description is represented by a <dd> (definition description) element.
+Each term is represented by a dt tag  (definition term) element, and each description is represented by a dd tag (definition description) element.
 You create a definition list using the <dl> element.
 Example:
 
