@@ -24,6 +24,7 @@ metadata tags in html
 
 >>
 Metadata tags in HTML are elements that provide information about the document itself, rather than the content within it. These tags help browsers, search engines, and other web services understand and process information about the webpage. Here are some common metadata tags:
+```javascript
 
 <meta charset="UTF-8">: Specifies the character encoding for the document. UTF-8 is the most common encoding for web documents.
 <meta name="viewport" content="width=device-width, initial-scale=1.0">: Sets the viewport properties to control the layout and scaling on different devices.
@@ -35,6 +36,8 @@ Metadata tags in HTML are elements that provide information about the document i
 <link rel="stylesheet" href="styles.css">: Links to an external CSS stylesheet to style the document.
 <link rel="icon" href="favicon.ico" type="image/x-icon">: Specifies the favicon (icon displayed in the browser tab).
 <title>Title of the Page</title>: Sets the title of the webpage, which appears in the browser tab or window title bar.
+```
+
 These metadata tags provide important information about the document, helping browsers and other services interpret and display it correctly.
 
 
